@@ -1,0 +1,15 @@
+<h1>Listing Sites</h1>
+ 
+<table>
+  <tr>
+	  <th>ID</th>
+	  <th>Number of visits</th>
+  </tr>
+ 
+  <% @sites.each do |site| %>
+    <tr>
+	    <td><%= site.id %></td>
+	    <td><%= site.visit.count %></td>
+    </tr>
+  <% end %>
+</table>
