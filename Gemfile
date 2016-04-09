@@ -53,5 +53,3 @@ end
 group :production do
 	gem 'pg'
 end
-
-gem 'coffee-script-source','1.8.0'
